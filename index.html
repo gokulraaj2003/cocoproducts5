@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CocoProducts5</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        /* Ensuring medium font sizes */
+        #hero {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            height: 100vh;
+        }
+
+        #hero h1 {
+            font-size: 4rem;
+            font-weight: bold;
+            margin-bottom: 1rem;
+        }
+
+        #hero h2 {
+            font-size: 2rem;
+            margin-top: 0;
+        }
+
+        #hero p {
+            font-size: 1.2rem;
+        }
+
+        #hero .btn {
+            margin-top: 1.5rem;
+            padding: 0.75rem 1.5rem;
+            background-color: #ff9800;
+            color: white;
+            text-decoration: none;
+            font-size: 1rem;
+            border-radius: 5px;
+        }
+
+        /* Ensures images fit within their container */
+        .product-item img {
+            width: 100%;
+            height: auto;
+        }
+
+        /* Custom styling for sections */
+        .section {
+            padding: 50px 0;
+        }
+
+        /* Styling for product grid */
+        .product-grid {
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+        }
+
+        .product-item {
+            margin: 20px;
+            width: 300px;
+            text-align: center;
+        }
+
+        /* Styling for form */
+        form input, form textarea {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 10px;
+            border-radius: 5px;
+            border: 1px solid #ccc;
+        }
+
+        form button {
+            padding: 10px 15px;
+            background-color: #ff9800;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        /* Adjust the Health Benefits font size to medium */
+        #benefits h2 {
+            font-size: 2.5rem; /* Adjusted to medium size */
+        }
+
+        #benefits ul li {
+            font-size: 1.5rem; /* Adjusted to medium size */
+        }
+    </style>
+</head>
+<body style="background-color: yellow;">
+    <header>
+        <div class="container">
+            <nav>
+                <ul>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#products">Products</a></li>
+                    <li><a href="#benefits">Health Benefits</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section id="hero">
+        <h1>CocoProducts5</h1>
+        <h2>Fresh Coconuts Direct from Our Farm</h2>
+        <p>Experience the best quality coconuts with natural health benefits.</p>
+        <a href="#products" class="btn">Explore Products</a>
+    </section>
+
+    <section id="about" class="section">
+        <div class="container">
+            <h2>About Us</h2>
+            <p>Welcome to CocoProducts5! Our farms in Chennai, KK Nagar, Ramanathapuram, and Pollachi deliver the freshest coconuts with medicinal values. We ensure quality and health in every product.</p>
+        </div>
+    </section>
+
+    <section id="products" class="section">
+        <div class="container">
+            <h2>Our Products</h2>
+            <div class="product-grid">
+                <div class="product-item">
+                    <img src="images/coconut.webp" alt="Coconut Image">
+                    <h3>Fresh Coconut</h3>
+                    <p>Enjoy the natural goodness of our fresh coconuts.</p>
+                </div>
+                <div class="product-item">
+                    <img src="images/coconut milk.png" alt="Coconut Milk">
+                    <h3>Coconut Milk</h3>
+                    <p>Creamy and nutritious coconut milk for your recipes.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="benefits" class="section">
+        <div class="container">
+            <h2>Health Benefits</h2>
+            <ul>
+                <li>Rich in nutrients and antioxidants.</li>
+                <li>Promotes hydration and boosts energy.</li>
+                <li>Supports heart and digestive health.</li>
+                <li>Enhances skin and hair care.</li>
+            </ul>
+        </div>
+    </section>
+
+    <section id="image-section" class="section">
+        <div class="container" style="text-align: center;">
+            <img src="images/Founder.png" alt="Founder Image" style="width: 60%; height: auto; margin-top: 20px;">
+        </div>
+    </section>
+
+    <section id="contact" class="section">
+        <div class="container">
+            <h2>Contact Us</h2>
+            <p>Have questions? Reach out to us:</p>
+            <p>Please fill out the form below to get in touch with us. Alternatively, you can use the link to access our Google Form:</p>
+            <a href="https://docs.google.com/forms/d/e/1FAIpQLSdnldt6S1VETi7mAhy8OWgDmNt-mDrAGSfhlhCE4waRNRXJWw/viewform?usp=header" target="_blank" class="btn">Fill out the Google Form</a>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 CocoProducts5. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>
